@@ -51,3 +51,6 @@ input {
   background: transparent /* url(img-fond.jpg/); */
 }
 
+ul {
+  list-style: none;
+}

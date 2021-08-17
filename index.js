@@ -93,6 +93,6 @@ if (essaisRates == 0) {
   alert('Perdu! Rafraichis la page pour retenter ta chance!');
 }
 lettreOk = false;
-// MÃ©thode qui permet de vider le champ "afficherCase" pour que l'utilisateur puisse Ã©crire une nouvelle lettre.
+
 lettre.value = '';
 }
