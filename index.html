@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>MOT MYSTERE</title>
+  </head>
+  <body>
+    <div class="gabarit">
+      <div class="titre"><h1>MOT MYSTERE</h1></div>
+
+      <h2>Une lettre à la fois</h2>
+
+      <p id="motMystere"></p>
+
+      <form name="form">
+        <!-- case qui contient la lettre. -->
+        <input id="text" type="text" name="texte" maxilength="1" />
+
+        <!-- bouton de validation -->
+
+        <input
+          type="button"
+          class="button"
+          value="Valider"
+          onclick="afficherCase()"
+        />
+      </form>
+    </div>
+    <!-- Indication de lettre déja utilisé -->
+    <p id="lettreFausse"></p>
+
+    <ul class="tentative" id="tentative">
+      <li class="start"><h3>Nombre de Tentavives "8"</h3></li>
+    </ul>
+
+    <script src="index.js"></script>
+  </body>
+</html>
