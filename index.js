@@ -78,16 +78,17 @@ function afficherCase() {
 
     }
   }
+  //----------------------------------------------------------------------------------------------
   // Alert qui indique bonne réponse
   if (lettreTrouvee == randmot.length) {
     // alert('Félicitation');
     setTimeout(function(){ alert("Félicitation"); }, 30);
   }
-  // Condition qui permet de compter et de retenir les lettres qui ne sont pas dans le mot Ã  deviner, et de changer en fonction l'image du pendu.
+  // Condition qui permet de retirer un essai 
   if (lettreOk == false) {
     essaisRates--;
 }
-
+//---------------------------------------------------------------------------------------------------
 // Condition qui permet de compter le nombre d'essais.
 if (essaisRates == 0) {
   alert('Perdu! Rafraichis la page pour retenter ta chance!');
